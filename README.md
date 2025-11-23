@@ -21,27 +21,26 @@ Python (3.7+)
 
 pandas
 
+
+
 💻 Installation
 
-1. Clone the repository
+1. Setup
 
-git clone [https://github.com/YourUsername/Python-Data-Summarizer.git](https://github.com/YourUsername/Python-Data-Summarizer.git)
-cd Python-Data-Summarizer
+First, download the code to your local machine (either by cloning the repository or downloading the single data_inspector.py file).
 
+2. Dependencies
 
-2. Install Dependencies
-
-You only need the pandas library, which can be installed via pip:
+Install the necessary Python libraries (pandas and openpyxl) in your environment. openpyxl is required for Excel support.
 
 pip install pandas openpyxl
 
 
-(The openpyxl package is necessary for reading Excel files.)
+3. Run
 
-3. Usage Example
+Place your data file (e.g., input_data.csv) in the same directory as the script.
 
-Place your data file (e.g., input_data.csv) in the same directory.
-
-Run the script from your terminal:
+Execute the Python script from your terminal:
 
 python data_inspector.py
+
